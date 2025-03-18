@@ -4,6 +4,7 @@
 
 body {
     margin: 0;
+    font-family: "Inter", sans-serif;
 }
 
 .no-scroll {
@@ -35,7 +36,7 @@ nav {
     width: 40px;
     height: 40px;
     font-size: 1rem;
-    place-content: center;
+    padding: auto;
     z-index: 10;
 }
 
@@ -71,8 +72,59 @@ nav {
     color: black;
 }
 
-.hidden {
-    display: none;
+section {
+    padding: 40px 20px;
+}
+
+#hero {
+    position: relative;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
+    url('./assets/IMG_3661.jpg');
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+h1 {
+    font-family: "Adamina", serif;
+    font-size: 2rem;
+    line-height: 125%;
+}
+
+h2 {
+    font-family: "Adamina", serif;
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: .8rem;
+    line-height: 150%;
+}
+
+.up-header {
+    font-weight: 600;
+}
+
+.btn {
+    margin-top: 16px;
+    padding: 8px 16px;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+}
+
+.btn.white {
+    background-color: white;
+    color: #012e58;
 }
 
 @media (min-width: 600px) {
@@ -91,5 +143,62 @@ nav {
         position: static;
         height: auto;
         gap: 20px;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+    
+    h2 {
+        font-size: 2rem;
+    }
+
+    #hero {
+        min-height: 80vh;
+    }
+
+    p {
+        font-size: .9rem;
+    }
+}
+
+@media (min-width: 992px) {
+    section {
+        padding: 100px;
+    }
+    nav {
+        padding: 16px 40px;
+    }
+    h1 {
+        font-size: 3.5rem;
+    }
+    
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    p {
+        font-size: 1.2rem;
+    }
+
+    .btn {
+        margin-top: 40px;
+        padding: 20px 40px;
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 1440px) {
+
+    h1 {
+        font-size: 4.5rem;
+    }
+    
+    h2 {
+        font-size: 3rem;
+    }
+
+    p {
+        font-size: 1.2rem;
     }
 }
