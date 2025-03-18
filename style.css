@@ -6,6 +6,10 @@ body {
     margin: 0;
 }
 
+.no-scroll {
+    overflow: hidden;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -16,6 +20,7 @@ nav {
 .logo {
     width: 120px;
     height: auto;
+    z-index: 10;
 }
 
 .logo img {
@@ -30,6 +35,8 @@ nav {
     width: 40px;
     height: 40px;
     font-size: 1rem;
+    place-content: center;
+    z-index: 10;
 }
 
 .nav-links {
@@ -49,7 +56,8 @@ nav {
 }
 
 .nav-links.active {
-    top: 140px;
+    top: 0px;
+    padding-top: 140px;
 }
 
 .nav-links li {
@@ -72,7 +80,7 @@ nav {
     nav {
         padding: 40px;
     }
-    
+
     .menu-toggle {
         display: none;
     }
