@@ -93,6 +93,8 @@ section {
     align-items: center;
     justify-content: center;
     text-align: center;
+
+    min-height: 40vh;
 }
 
 h1 {
@@ -189,10 +191,10 @@ p {
     }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1920px) {
 
     h1 {
-        font-size: 4.5rem;
+        font-size: 5rem;
     }
     
     h2 {
@@ -200,6 +202,6 @@ p {
     }
 
     p {
-        font-size: 1.2rem;
+        font-size: 1.5rem;
     }
 }
