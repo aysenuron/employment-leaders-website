@@ -79,7 +79,7 @@ nav {
     color: black;
 }
 
-section {
+section, footer {
     padding: 40px 20px;
 }
 
@@ -244,6 +244,29 @@ p {
     gap: 4px;
 }
 
+.general-content img {
+    width: 100%;
+    height: auto;
+}
+
+#about {
+    z-index: 10;
+    background: linear-gradient(rgba(3, 33, 51, 0.5), rgba(3, 33, 51, 0.5)), 
+    url('./assets/Downtown_Skyline_from_Oak_Hill_\(cropped\).jpg');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: left;
+
+    min-height: 30vh;
+}
+
 @media (min-width: 600px) {
 
     nav {
@@ -294,8 +317,8 @@ p {
 }
 
 @media (min-width: 992px) {
-    section {
-        padding: 64px;
+    section, footer {
+        padding: 64px 120px;
         margin-bottom: 40px;
     }
     .hero-content{
@@ -360,19 +383,43 @@ p {
     .arrow-up {
         margin: 8px;
     }
+
+    .general-content {
+       display: grid;
+       grid-template-columns: 1fr 1fr;
+       align-items: center;
+       gap: 40px;
+    }
+
+    #about {
+        min-height: 40vh;
+    }
 }
 
 @media (min-width: 1920px) {
+
+    section, footer {
+        padding: 64px 320px;
+    }
+
+    #general {
+        margin-top: 120px;
+    }
+
+    .hero-content{
+        width: 1200px;
+    }
 
     h1 {
         font-size: 5rem;
     }
     
     h2 {
-        font-size: 3rem;
+        font-size: 3.5rem;
     }
 
-    p {
-        font-size: 1.5rem;
-    }
+    .general-content {
+        gap: 120px;
+     }
+
 }
