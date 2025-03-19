@@ -34,6 +34,11 @@ nav {
     height: auto;
 }
 
+.logo-lg {
+    width: 180px;
+    height: auto;
+}
+
 .menu-toggle {
     background-color: white;
     border: #012e58 1px solid;
@@ -86,7 +91,7 @@ section, footer {
 #hero {
     z-index: 10;
     background: linear-gradient(rgba(3, 33, 51, 0.5), rgba(3, 33, 51, 0.5)), 
-    url('./assets/IMG_3661.jpg');
+    url('./assets/IMG_3661.webp');
 
     background-attachment: fixed;
     background-position: center;
@@ -122,7 +127,7 @@ h3 {
 }
 
 p {
-    font-size: .8rem;
+    font-size: .9rem;
     line-height: 150%;
 }
 
@@ -131,11 +136,14 @@ p {
 }
 
 .btn {
+    background-color: #012e58;
+    color: white;
     margin-top: 16px;
     padding: 8px 16px;
     font-size: 1rem;
     font-weight: 600;
     border: none;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.4);
 }
 
 .btn.white {
@@ -161,55 +169,55 @@ p {
 }
 
 #healthcare {
-    background-image:linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url(./assets/health.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url(./assets/health.webp);
 }
 
 #executive {
-    background-image:linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url(./assets/executive.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url(./assets/executive.webp);
 }
 
 #technology {
-    background-image:linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url(./assets/technology.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url(./assets/technology.webp);
 }
 
 #infusion {
-    background-image:linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url(./assets/infusion.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url(./assets/infusion.webp);
 }
 
 #mining {
-    background-image:linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url(./assets/mining.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url(./assets/mining.webp);
 }
 
 #hospice {
-    background-image:linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url(./assets/hospice.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url(./assets/hospice.webp);
 }
 
 #finance {
-    background-image:linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url(./assets/finance.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url(./assets/finance.webp);
 }
 
 #biotech {
-    background-image:linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url(./assets/biotech.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url(./assets/biotech.webp);
 }
 
 #clinic {
-    background-image:linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url(./assets/clinic.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url(./assets/clinic.webp);
 }
 
 #drug {
-    background-image:linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url(./assets/drug.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url(./assets/drug.webp);
 }
 
 #research {
-    background-image:linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url(./assets/research.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url(./assets/research.webp);
 }
 
 #aerospace {
-    background-image:linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url(./assets/aerospace.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url(./assets/aerospace.webp);
 }
 
 #hospitality {
-    background-image:linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url(./assets/hospitality.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url(./assets/hospitality.webp);
 }
 
 .first-row {
@@ -251,8 +259,8 @@ p {
 
 #about {
     z-index: 10;
-    background: linear-gradient(rgba(3, 33, 51, 0.5), rgba(3, 33, 51, 0.5)), 
-    url('./assets/Downtown_Skyline_from_Oak_Hill_\(cropped\).jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+    url('./assets/Downtown_Skyline_from_Oak_Hill_\(cropped\).webp');
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -265,6 +273,67 @@ p {
     text-align: left;
 
     min-height: 30vh;
+}
+
+.text-grid {
+    padding: 16px;
+    border: solid 1px rgb(199, 199, 199);
+}
+
+.image-container {
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.hidden-img {
+    display: none;
+}
+
+.testimonals-grid {
+    display: grid;
+    gap: 16px;
+}
+
+#tes-img-1 {
+    background-image: url(./assets/tes-img-1.webp);
+}
+
+#tes-img-2 {
+    background-image: url(./assets/tes-img-2.webp);
+    height: 500px;
+}
+
+#tes-img-3 {
+    background-image: url(./assets/tes-img-3.webp);
+}
+
+#testimonials-h2 {
+    text-align: center;
+}
+
+.author {
+    font-weight: 700;
+}
+
+.work-place {
+    margin-top: -16px;
+    color: gray;
 }
 
 @media (min-width: 600px) {
@@ -301,10 +370,6 @@ p {
         min-height: 80vh;
     }
 
-    p {
-        font-size: .9rem;
-    }
-
     .areas-grid {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -313,6 +378,23 @@ p {
 
     .areas {
         min-height: 200px;
+    }
+
+    .hidden-img {
+        display: block;
+    }
+
+    .testimonals-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .img-large {
+        grid-column: span 2;
+    }
+
+    #tes-img-2 {
+        height: 600px;
+        background-position: top;
     }
 }
 
@@ -394,6 +476,27 @@ p {
     #about {
         min-height: 40vh;
     }
+
+    #contact {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .testimonals-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .span-2 {
+        grid-column: span 2;
+    }
+
+    .span-3 {
+        grid-column: span 3;
+    }
+
+    .span-4 {
+        grid-column: span 4;
+    }
 }
 
 @media (min-width: 1920px) {
@@ -421,5 +524,9 @@ p {
     .general-content {
         gap: 120px;
      }
+
+     .logo-lg {
+        width: 320px;
+    }
 
 }
