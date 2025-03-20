@@ -105,7 +105,6 @@ section, footer {
     background: linear-gradient(rgba(3, 33, 51, 0.5), rgba(3, 33, 51, 0.5)), 
     url('./assets/IMG_3661.webp');
 
-    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -552,6 +551,7 @@ footer {
 
     #hero {
         min-height: 80vh;
+        background-attachment: fixed;
     }
 }
 
