@@ -118,6 +118,7 @@ section, footer {
     text-align: center;
 
     min-height: 40vh;
+    width: 100%;
 }
 
 h1 {
@@ -146,10 +147,10 @@ p {
 }
 
 .up-header {
+    width: 100%;
     font-weight: 600;
     text-align: center;
     letter-spacing: 0.5px; /* Adjust as needed */
-    white-space: nowrap;
 }
 
 .up-header span {
@@ -377,6 +378,10 @@ footer {
     color: gray;
 }
 
+.hero-content {
+    width: 100%;
+}
+
 @media (min-width: 600px) {
 
     nav {
@@ -396,7 +401,7 @@ footer {
     }
 
     #hero {
-        min-height: 80vh;
+        min-height: 60vh;
     }
 
     .areas-grid {
@@ -543,6 +548,10 @@ footer {
     #tes-img-2 {
         height: auto;
         background-position: top;
+    }
+
+    #hero {
+        min-height: 80vh;
     }
 }
 
