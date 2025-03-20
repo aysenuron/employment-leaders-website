@@ -32,7 +32,7 @@ nav {
 }
 
 .logo {
-    width: 120px;
+    width: 80px;
     height: auto;
     z-index: 120;
 }
@@ -85,10 +85,12 @@ nav {
 
 .header-links {
     width: 100%;
-    margin: 20px 10px;
+    margin: 10px;
     font-size: 1rem;
     list-style: none;
     border-bottom: rgb(204, 204, 204) solid 1px;
+    padding: 16px;
+    text-align: left;
 }
 
 .nav-links a {
@@ -160,15 +162,10 @@ p {
     color: #012e58;
 }
 
-#btn-header a {
-    color: white;
-    min-width: 100%;
-}
-
 .btn {
     background-color: #012e58;
     color: white;
-    padding: 6px 12px;
+    padding: 8px 16px;
     font-size: 0.9rem;
     font-weight: 600;
     border: none;
@@ -190,6 +187,16 @@ p {
 .btn.white:hover {
     background-color: #012e58;
     color: white;
+}
+
+#btn-header a {
+    color: white;
+}
+
+#btn-header {
+    margin-top: 32px;
+    min-width: 100%;
+    text-align: center;
 }
 
 .areas-grid {
@@ -383,6 +390,10 @@ footer {
 
 @media (min-width: 600px) {
 
+    .logo {
+        width: 100px;
+    }
+
     nav {
         padding: 40px;
     }
@@ -428,6 +439,10 @@ footer {
 
 @media (min-width: 992px) {
 
+    .logo {
+        width: 120px;
+    }
+
     .menu-toggle {
         display: none;
     }
@@ -444,6 +459,7 @@ footer {
     .nav-links li {
         border: none;
         width: auto;
+        padding: 0;
     }
 
     section, footer {
@@ -552,6 +568,12 @@ footer {
     #hero {
         min-height: 80vh;
         background-attachment: fixed;
+    }
+
+    #btn-header {
+        margin: 0;
+        min-width: fit-content;
+        padding: 12px 24px;
     }
 }
 
