@@ -307,8 +307,8 @@ p {
 
 #about {
     z-index: 10;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
-    url('./assets/Downtown_Skyline_from_Oak_Hill_\(cropped\).webp');
+    background: linear-gradient(rgba(3, 33, 51, 0.7), rgba(3, 33, 51, 0.7)), 
+    url('./assets/about-bg.webp');
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -369,6 +369,10 @@ footer {
 
 #tes-img-3 {
     background-image: url(./assets/tes-img-3.webp);
+}
+
+#tes-img-4 {
+    background-image: url(./assets/tes-img-4.webp);
 }
 
 #testimonials-h2 {
@@ -463,7 +467,7 @@ footer {
     }
 
     section, footer {
-        padding: 64px 120px;
+        padding: 32px 120px;
         margin-bottom: 40px;
     }
     .hero-content{
@@ -477,7 +481,7 @@ footer {
     }
     
     h2 {
-        font-size: 2.5rem;
+        font-size: 3rem;
     }
 
     p {
@@ -535,6 +539,11 @@ footer {
        gap: 40px;
     }
 
+    .right-col img {
+        max-height: 600px;
+        width: auto;
+    }
+
     #about {
         min-height: 40vh;
     }
@@ -580,7 +589,7 @@ footer {
 @media (min-width: 1920px) {
 
     section, footer {
-        padding: 64px 320px;
+        padding: 32px 320px;
     }
 
     #general {
@@ -605,6 +614,10 @@ footer {
 
      .logo-lg {
         width: 320px;
+    }
+
+    #about {
+        background-position: center;
     }
 
 }
