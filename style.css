@@ -43,7 +43,7 @@ nav {
 }
 
 .logo-lg {
-    width: 180px;
+    width: 240px;
     height: auto;
 }
 
@@ -104,7 +104,7 @@ section, footer {
 
 #hero {
     z-index: 10;
-    background: linear-gradient(rgba(3, 33, 51, 0.5), rgba(3, 33, 51, 0.5)), 
+    background: linear-gradient(rgba(3, 33, 51, 0.1), rgba(3, 33, 51, 0.8)), 
     url('./assets/IMG_3661.webp');
 
     background-position: center;
@@ -156,10 +156,6 @@ p {
 
 .up-header span {
     margin: 0 5px; /* Adjust spacing around the bullet */
-}
-
-.up-header.blue-para {
-    color: #012e58;
 }
 
 .btn {
@@ -307,7 +303,7 @@ p {
 
 #about {
     z-index: 10;
-    background: linear-gradient(rgba(3, 33, 51, 0.7), rgba(3, 33, 51, 0.7)), 
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)), 
     url('./assets/about-bg.webp');
     background-position: top;
     background-repeat: no-repeat;
@@ -390,6 +386,23 @@ footer {
 
 .hero-content {
     width: 100%;
+}
+
+.footer-bg {
+    box-sizing: border-box;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)), 
+    url('./assets/panama.webp');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 120px 8px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    color: white;
 }
 
 @media (min-width: 600px) {
@@ -484,13 +497,13 @@ footer {
         font-size: 3rem;
     }
 
-    p {
-        font-size: 1.2rem;
-    }
-
     .btn {
         padding: 12px 24px;
         font-size: 1.2rem;
+    }
+
+    p {
+        font-size: 1.1rem;
     }
 
     .areas-grid {
@@ -514,14 +527,20 @@ footer {
         grid-column: span 2;
     }
 
-    #statistics p {
+    .statistics-para {
         width: 80%;
     }
 
     .stats {
         margin-top: 64px;
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(5, 1fr);
+        gap: 72px;
+    }
+
+    .stat-lg {
+        grid-column: span 2;
+        width: 100%;
     }
 
     .stat-arrow {
@@ -584,6 +603,11 @@ footer {
         min-width: fit-content;
         padding: 12px 24px;
     }
+
+    .footer-bg {
+        margin: 0 auto;
+        background-position-y: 25%;
+    }
 }
 
 @media (min-width: 1920px) {
@@ -608,6 +632,10 @@ footer {
         font-size: 3.5rem;
     }
 
+    p {
+        font-size: 1.2rem;
+    }
+
     .general-content {
         gap: 120px;
      }
@@ -618,6 +646,10 @@ footer {
 
     #about {
         background-position: center;
+    }
+
+    .footer-bg {
+        background-position-y: 35%;
     }
 
 }
